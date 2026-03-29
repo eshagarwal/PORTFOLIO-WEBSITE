@@ -10,4 +10,7 @@ React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaSc
 
 ---
 
+## LICENSE 
+
+[MIT LICENSE](./LICENSE)
 
