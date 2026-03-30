@@ -111,6 +111,10 @@ body {
   text-transform: uppercase;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (min-width: 768px) {
   body {
     --cWidth: 94%;
