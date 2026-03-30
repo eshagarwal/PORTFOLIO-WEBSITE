@@ -98,11 +98,11 @@ const WhatIDo = () => {
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">React</div>
                 <div className="what-tags">React Native</div>
-                <div className="what-tags">Css</div>
+                <div className="what-tags">CSS</div>
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">MySql</div>
-                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">REST API</div>
               </div>
               <div className="what-arrow"></div>
             </div>
