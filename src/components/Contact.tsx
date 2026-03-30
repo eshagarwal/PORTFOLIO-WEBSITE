@@ -39,18 +39,18 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
               Instagram <MdArrowOutward />
-            </a>
+            </a> */}
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Esha Agarwal</span>
+              Developed <br /> by <span>Esha Agarwal</span>
             </h2>
             <h5>
               <MdCopyright /> 2026
