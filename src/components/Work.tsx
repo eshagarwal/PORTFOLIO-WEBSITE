@@ -67,8 +67,8 @@ const Work = () => {
                 <p>
                   • Built a Chrome extension that generates clear, real-time explanations of webpage content using AI. <br /><br />
                   • Designed multiple explanation modes through prompt engineering, allowing users to adjust how content is simplified <br /><br />
-                  • Published on the Chrome Web Store - Download Here <br /><br />                  
-                  • GitHub Link <br /><br />                  
+                  • Published on the Chrome Web Store - <u><a href="https://chromewebstore.google.com/detail/jhkpgjobmoamadofcghfeedpclbmappi?utm_source=item-share-cb">Download Here</a></u> <br /><br />                  
+                  • <u><a href="https://github.com/eshagarwal/SmolBrain_Chrome-extension">GitHub Link</a></u> <br /><br />                  
 
                 </p>
               </div>
@@ -91,7 +91,7 @@ const Work = () => {
                   • Designed an end-to-end pipeline that converts user queries into SQL, executes them and returns meaningful results. <br /><br />          
                   • Developed a chat-based interface using Streamlit, making data exploration intuitive and conversational. <br /><br />          
                   • Implemented session management and context handling to support continuous user queries. <br /><br />                  
-                  • GitHub Link <br /><br />            
+                  • <u><a href="https://github.com/eshagarwal/SmartBI-AI-Powered_Self-Service_Business_Intelligence_System">GitHub Link</a></u> <br /><br />            
 
                 </p>
               </div>
@@ -113,14 +113,16 @@ const Work = () => {
                   • Evaluated predictive models using fairness metrics (Disparate Impact, Treatment, Mistreatment) <br /><br /> 
                   • Built analysis tools in Python to measure bias in loan approval models <br /><br /> 
                   • Presented results in interpretable format for stakeholders <br /><br />                  
-                  • GitHub Link <br /><br />                  
+                  • <u><a href="https://eshagarwal.github.io/Ethical-Analysis-of-Loan-Approval-Dataset-Ethical-Issues-of-AI/">Deployed Notebook Link</a></u> <br /><br />
+                  • <u><a href="https://github.com/eshagarwal/Ethical-Analysis-of-Loan-Approval-Dataset-Ethical-Issues-of-AI">GitHub Link</a></u>
+                  <br /><br />                  
 
                 </p>
               </div>
               {/* <WorkImage image="/images/placeholder.webp" alt="" /> */}
             </div>
 
-            <div className="work-box">
+            {/* <div className="work-box">
               <div className="work-info">
                 <div className="work-title">
                   <h3>04</h3>
@@ -134,9 +136,9 @@ const Work = () => {
                 <p>Javascript, TypeScript, React</p>
               </div>
               {/* <WorkImage image="/images/placeholder.webp" alt="" /> */}
-            </div>
+            {/* </div> */}
 
-            <div className="work-box">
+            {/* <div className="work-box">
               <div className="work-info">
                 <div className="work-title">
                   <h3>05</h3>
@@ -148,9 +150,9 @@ const Work = () => {
                 </div>
                 <h4>Tools and features</h4>
                 <p>Javascript, TypeScript, React</p>
-              </div>
+              </div> */}
               {/* <WorkImage image="/images/placeholder.webp" alt="" /> */}
-            </div>
+            {/* </div> */}
         </div>
       </div>
     </div>
