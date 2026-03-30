@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
+    "deploy": "tsc -b && vite build && cd dist/ && git add . && git commit -m \"Deploy $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin gh-pages",
     "lint": "eslint .",
     "preview": "vite preview"
   },
