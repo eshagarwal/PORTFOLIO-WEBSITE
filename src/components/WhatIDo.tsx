@@ -87,17 +87,15 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>BUILD & SCALE</h3>
+              <h4>Full Stack Developer</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I build scalable, user-focused applications, working across frontend and backend to deliver reliable and high-performing products.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
                 <div className="what-tags">React</div>
                 <div className="what-tags">React Native</div>
                 <div className="what-tags">Css</div>
@@ -128,22 +126,18 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>AI & ML</h3>
+              <h4>AI enthusiast, building real solutions</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I explore AI to build practical solutions using machine learning and LLMs, focusing on solving real problems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">LLM APIs (OpenAI)</div>
+                <div className="what-tags">Data Analysis</div>
+                <div className="what-tags">Exploratory Data Analysis (EDA)</div>
               </div>
               <div className="what-arrow"></div>
             </div>
