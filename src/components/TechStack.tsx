@@ -14,7 +14,6 @@ import {
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
   `${import.meta.env.BASE_URL}images/react2.webp`,
-  `${import.meta.env.BASE_URL}images/next2.webp`,
   `${import.meta.env.BASE_URL}images/node2.webp`,
   `${import.meta.env.BASE_URL}images/express.webp`,
   `${import.meta.env.BASE_URL}images/mongo.webp`,
@@ -26,7 +25,7 @@ const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
-const spheres = [...Array(30)].map(() => ({
+const spheres = [...Array(25)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
 
@@ -57,8 +56,8 @@ function SphereGeo({
         new THREE.Vector3(
           -50 * delta * scale,
           -150 * delta * scale,
-          -50 * delta * scale
-        )
+          -50 * delta * scale,
+        ),
       );
 
     api.current?.applyImpulse(impulse, true);
@@ -105,9 +104,9 @@ function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
       new THREE.Vector3(
         (pointer.x * viewport.width) / 2,
         (pointer.y * viewport.height) / 2,
-        0
+        0,
       ),
-      0.2
+      0.2,
     );
     ref.current?.setNextKinematicTranslation(targetVec);
   });
@@ -162,7 +161,7 @@ const TechStack = () => {
           metalness: 0.5,
           roughness: 1,
           clearcoat: 0.1,
-        })
+        }),
     );
   }, []);
 
