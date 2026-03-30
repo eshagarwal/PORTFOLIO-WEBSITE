@@ -70,7 +70,7 @@ const Scene = () => {
             }, 2500);
           });
           window.addEventListener("resize", () =>
-            handleResize(renderer, camera, canvasDiv, character)
+            handleResize(renderer, camera, canvasDiv, character),
           );
         }
       });
@@ -86,7 +86,7 @@ const Scene = () => {
         const element = event.target as HTMLElement;
         debounce = setTimeout(() => {
           element?.addEventListener("touchmove", (e: TouchEvent) =>
-            handleTouchMove(e, (x, y) => (mouse = { x, y }))
+            handleTouchMove(e, (x, y) => (mouse = { x, y })),
           );
         }, 200);
       };
@@ -115,7 +115,7 @@ const Scene = () => {
             mouse.y,
             interpolation.x,
             interpolation.y,
-            THREE.MathUtils.lerp
+            THREE.MathUtils.lerp,
           );
           light.setPointLight(screenLight);
         }
@@ -131,7 +131,7 @@ const Scene = () => {
         scene.clear();
         renderer.dispose();
         window.removeEventListener("resize", () =>
-          handleResize(renderer, camera, canvasDiv, character!)
+          handleResize(renderer, camera, canvasDiv, character!),
         );
         if (canvasDiv.current) {
           canvasDiv.current.removeChild(renderer.domElement);

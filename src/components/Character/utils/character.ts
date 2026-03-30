@@ -6,7 +6,7 @@ import { decryptFile } from "./decrypt";
 const setCharacter = (
   renderer: THREE.WebGLRenderer,
   scene: THREE.Scene,
-  camera: THREE.PerspectiveCamera
+  camera: THREE.PerspectiveCamera,
 ) => {
   const loader = new GLTFLoader();
   const dracoLoader = new DRACOLoader();
@@ -17,8 +17,8 @@ const setCharacter = (
     return new Promise<GLTF | null>(async (resolve, reject) => {
       try {
         const encryptedBlob = await decryptFile(
-          "/models/character.enc",
-          "Character3D#@"
+          "/models/character3.enc",
+          "Character3D#@",
         );
         const blobUrl = URL.createObjectURL(new Blob([encryptedBlob]));
 
@@ -47,7 +47,7 @@ const setCharacter = (
           (error) => {
             console.error("Error loading GLTF model:", error);
             reject(error);
-          }
+          },
         );
       } catch (err) {
         reject(err);
