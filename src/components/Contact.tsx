@@ -14,12 +14,11 @@ const Contact = () => {
                 esha.agarwal0212@gmail.com
               </a>
             </p>
-            <h4>Phone</h4>
+            {/* <h4>Phone</h4>
             <p>
               <a href="tel:+9199999999" data-cursor="disable">
-                +49 15510346817
               </a>
-            </p>
+            </p> */}
           </div>
           <div className="contact-box">
             <h4>Social</h4>
