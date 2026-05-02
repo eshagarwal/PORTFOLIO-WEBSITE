@@ -19,10 +19,12 @@ const About = () => {
           I’m currently looking for opportunities where I can grow as a developer, contribute to impactful projects, and continue learning every day.
         </p> */}
         <p className="para">
-          Hey! I’m Esha, a full-stack developer passionate about building
+          {/* Hey! I’m Esha, a full-stack developer passionate about building
           impactful and user-focused applications. I enjoy turning ideas into
           scalable solutions using modern technologies. I focus on creating intuitive, reliable
-          experiences while continuously learning and growing as a developer.
+          experiences while continuously learning and growing as a developer. */}
+          I build intelligent systems that connect data, models, and real-world applications. My work focuses on designing backend architectures that power AI-driven solutions - from multimodal systems to automated decision-making pipelines.
+          With a strong foundation in software engineering and a growing focus on applied AI, I enjoy turning complex problems into structured, scalable systems. I’m especially interested in how AI can move beyond experiments and become reliable, usable tools in production environments.
         </p>
       </div>
     </div>
