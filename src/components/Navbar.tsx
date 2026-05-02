@@ -44,12 +44,12 @@ const Navbar = () => {
         <ul>
           <li>
             <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
+              <HoverLinks text="ABOUT ME" />
             </a>
           </li>
           <li>
             <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
+              <HoverLinks text="MY WORK" />
             </a>
           </li>
           <li>
