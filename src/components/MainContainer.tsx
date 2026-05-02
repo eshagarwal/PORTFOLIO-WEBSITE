@@ -1,6 +1,6 @@
 import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
 import About from "./About";
-import Career from "./Career";
+// import Career from "./Career";
 import Contact from "./Contact";
 import Cursor from "./Cursor";
 import Landing from "./Landing";
