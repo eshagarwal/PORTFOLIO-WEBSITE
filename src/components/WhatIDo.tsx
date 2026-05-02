@@ -88,9 +88,11 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>BUILD & SCALE</h3>
-              <h4>Full Stack Developer</h4>
+              <h4>Full Stack Engineer</h4>
               <p>
-                I build scalable, user-focused applications, working across frontend and backend to deliver reliable and high-performing products.
+                {/* I build scalable, user-focused applications, working across frontend and backend to deliver reliable and high-performing products. */}
+                {/* I design and build scalable systems that connect frontend, backend, and data workflows. My focus is on creating reliable, high-performing applications that are structured for real-world usage and growth. */}
+                I build scalable applications across frontend and backend, focusing on performance, clean structure, and real-world usability.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -126,18 +128,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>AI & ML</h3>
-              <h4>AI enthusiast, building real solutions</h4>
+              <h3>AI SYSTEMS</h3>
+              <h4>Applied AI Engineer, building real solutions</h4>
               <p>
-                I explore AI to build practical solutions using machine learning and LLMs, focusing on solving real problems.
+                {/* I build AI-driven systems that go beyond simple model usage — integrating LLMs, Vision-Language Models, and retrieval pipelines into real applications. My focus is on creating intelligent systems that are efficient, reliable, and usable in production. */}
+                I build practical AI systems using LLMs and Vision-Language Models, focusing on solving real problems and making them reliable to use.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
+                <div className="what-tags">PyTorch</div>
+                <div className="what-tags">Hugging Face</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">LLMs</div>
+                <div className="what-tags">NLP</div>
                 <div className="what-tags">Prompt Engineering</div>
-                <div className="what-tags">LLM APIs (OpenAI)</div>
-                <div className="what-tags">Data Analysis</div>
-                <div className="what-tags">Exploratory Data Analysis (EDA)</div>
+                <div className="what-tags">Computer Vision</div>
               </div>
               <div className="what-arrow"></div>
             </div>
