@@ -2,7 +2,6 @@ import {
   FormEvent,
   KeyboardEvent,
   useEffect,
-  useMemo,
   useRef,
   useState,
 } from "react";
@@ -45,13 +44,13 @@ const Chatbot = () => {
     scroller.scrollTop = scroller.scrollHeight;
   }, [messages, isOpen]);
 
-  const endpointLabel = useMemo(() => {
-    try {
-      return new URL(CHATBOT_API_URL).host;
-    } catch {
-      return CHATBOT_API_URL;
-    }
-  }, []);
+  // const endpointLabel = useMemo(() => {
+  //   try {
+  //     return new URL(CHATBOT_API_URL).host;
+  //   } catch {
+  //     return CHATBOT_API_URL;
+  //   }
+  // }, []);
 
   const sendMessage = async () => {
     const trimmedInput = input.trim();
@@ -157,7 +156,6 @@ const Chatbot = () => {
         </span>
         <span className="chatbot-toggle-copy">
           <strong>Ask Esha</strong>
-          <small>{endpointLabel}</small>
         </span>
       </button>
 
@@ -170,7 +168,6 @@ const Chatbot = () => {
               </span>
               <div>
                 <strong>Ask Esha</strong>
-                <small>Connected to {endpointLabel}</small>
               </div>
             </div>
 
