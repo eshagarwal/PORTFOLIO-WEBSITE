@@ -2,6 +2,7 @@ import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
 import About from "./About";
 // import Career from "./Career";
 import Contact from "./Contact";
+import Chatbot from "./Chatbot";
 import Cursor from "./Cursor";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
@@ -34,6 +35,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       <Cursor />
       <Navbar />
       <SocialIcons />
+      <Chatbot />
       {isDesktopView && children}
       <div id="smooth-wrapper">
         <div id="smooth-content">
